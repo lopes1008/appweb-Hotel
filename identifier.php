@@ -50,9 +50,9 @@ include('barre de menu.php')
   <div class="container">
     <div class="row"><br>
       <div class="col-sm-4"></div>
-        <div class="col-sm-4 text-center"style="background-color:#9C9C9C;margin-top:70px;margin-bottom:50px;"><br>
+        <div class="col-sm-4 text-center"style="box-shadow:2px 2px 2px;background-color:#f4ac41;"><br>
 
-        	<h1 align="center"><b><font style="font-family: 'Libre Baskerville', serif;">Connexion</font></b></h1>
+        	<h1 align="center"><b><font style="font-family: 'Libre Baskerville', serif;text-shadow:3px 3px #000;">Connexion</font></b></h1>
           <img src="image/clipart/login-user-icon.png" class="img-circle" alt="Bird" width="130" height="120">
           <?php echo @$error; ?>
           <form method="post"><br>

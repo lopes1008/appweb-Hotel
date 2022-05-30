@@ -19,7 +19,10 @@
 <div class="container"> 
   <div class="row content">
     <div class="col-sm-12">
-      <h1 style="color: black;margin-top:-40px;" id="font">Hôtel Etoile Paris</h1><br>
+      <h1 id="font">{ Hôtel en ligne }</h1><br>
+      <p class="text-justify">Informations générales à propos de l'application et ces avantages
+<h1 align="center"id="font">[ Services ]</h1><br>
+<p class="text-justify">Informations sur les services de l'hôtel</p>
     </div>
   </div><br><br>
   <div class="row"align="center">
@@ -39,23 +42,23 @@
     </div>
   </div>
 </div>      
-        <div style="margin-bottom: 100px;" class="col-sm-2">
+        <div class="col-sm-2">
           <h4><b>Addresse</b></h4>
-          <b>Champ Elysée, Paris, France</b>
+          <b>Mediouna, CASABLANCA</b>
         </div>
         <div class="col-sm-2"style="background-color:#27303b;height:80px;width:100px;">
             <a href="#"><img src="image/icon/icon-02.png"width="60px;"height="50px;"style="margin-top:15px;"></a>
         </div>
          <div class="col-sm-2">
           <h4><b>Téléphone</b></h4>
-              <b>+33 6 43 52 31 93</b>
+              <b>(+212) 643523193</b>
         </div>
         <div class="col-sm-2"style="background-color:#27303b;height:80px;width:100px;">
             <a href="#"><img src="image/icon/icon-03.png"width="60px;"height="50px;"style="margin-top:15px;"></a>
         </div>
          <div class="col-sm-2">
           <h4><b>Email</b></h4>
-              <b>contact@hoteletoile.com</b>
+              <b>sa.saghiranass@gmail.com</b>
         </div>
   </div><br><br>
 </div>

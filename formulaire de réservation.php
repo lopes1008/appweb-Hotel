@@ -25,7 +25,7 @@ if(isset($savedata))
   '$room_type','$Occupancy','$cdate','$ctime','$codate')";
    if(mysqli_query($con,$sql))
    {
-   $msg= "<h1 style='color:blue'>Vous avez réservé cette chambre avec succès et vous gagner 1 points de fidéliter</h1><h2><a href='détails de réservation.php'>View </a></h2>"; 
+   $msg= "<h1 style='color:blue'>Vous avez réservé cette chambre avec succès</h1><h2><a href='détails de réservation.php'>View </a></h2>"; 
    }
   }
 }

@@ -34,7 +34,6 @@ $msg= "<h3 style='color:blue'>Mise à jour du profil réussie</h3>";
      $result=mysqli_fetch_assoc($sql);
 ?>
 <div class="container-fluid"id="primary"><!--Primary Id-->
-
   <center><h1 style="background-color:#ed2553;border-radius:50px;font-family: 'Baloo Bhai', cursive;box-shadow:5px 5px 9px blue;text-shadow:2px 2px#000;display:inline-block;">Profil utilisateur</h1></center><br>
   <div class="container">
     <div class="row">
@@ -105,33 +104,6 @@ $msg= "<h3 style='color:blue'>Mise à jour du profil réussie</h3>";
       </div>
    </div>
  </div>
-</div>
-<?php
-     $sql= mysqli_query($con,"select * from create_account where email='$eid' "); 
-     $result=mysqli_fetch_assoc($sql);
-?>
-<div class="container-fluid"id="primary"><!--Primary Id-->
-
-  <center><h1 style="background-color:#ed2553;border-radius:50px;font-family: 'Baloo Bhai', cursive;box-shadow:5px 5px 9px blue;text-shadow:2px 2px#000;display:inline-block;">Fidéliter</h1></center><br>
-  <div class="container">
-    <div class="row">
-	<center><?php  echo $msg; ?></center>
-       <div class="col-sm-6">
-          <div class="form-group">
-           <div class="row">
-              <div class="control-label col-sm-4"><h4>Fidélité :</h4></div>
-                <div class="col-sm-8">
-                 <strong><?php echo $result['fidelite']; ?></strong>
-          </div>
-        </div>
-                 
-          </div>
-        </div>
-      </div> 
-    </div>
-   </div>
- </div>
-</div>
 <?php
 include('bas de page.php')
 ?>

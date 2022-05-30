@@ -69,7 +69,7 @@ include('connection.php');
     
 </div> <!--Infos sur la chambre Commence ici-->
 
- <div style="background-color: white;margin-top:100px; margin-bottom: 150px;" class="container-fluid"id="red">
+ <div style="background-color: white;" class="container-fluid"id="red">
 <div class="container text-center">    
   <h1 style="color: black;">Bienvenue à Hôtel Etoile Paris</h1><hr><br>
   <div class="row">
@@ -83,9 +83,9 @@ include('connection.php');
 	?>
 	<div class="col-sm-4">
       <img src="image/rooms/<?php echo $r_res['image']; ?>"class="img-responsive thumbnail"alt="Image"id="img1">
-      <h4 class="Room_Text"> <?php echo $r_res['type']; ?></h4>
+      <h4 class="Room_Text">[ <?php echo $r_res['type']; ?>]</h4>
       <p class="text-justify"><?php echo substr($r_res['details'],0,100); ?></p><br>
-	    <a href="détails de la chambre.php?room_id=<?php echo $r_res['room_id']; ?>" class="btn btn-danger text-center btn-plus" >Lire la suite</a><br><br>
+	    <a href="détails de la chambre.php?room_id=<?php echo $r_res['room_id']; ?>" class="btn btn-danger text-center">Lire la suite</a><br><br>
     </div>
 	<?php } ?>
   </div>

@@ -40,7 +40,7 @@ include('barre de menu.php');
 <div class="container-fluid"style="background-color:#4286f4;color:#000;">
   <div class="container">
     <div class="row">
-      <center><h1 style="background-color:#ed2553; border-radius:50px;display:inline-block;"><b><font color="#080808">Créer un nouveau compte</font></b></h1></center>
+      <center><h1><b><font color="#080808">Créer un nouveau compte</font></b></h1></center>
        <center><?php echo @$msg;?></center><br>
       <div class="col-sm-2"></div>
       <div class="col-sm-6 ">
@@ -94,9 +94,16 @@ include('barre de menu.php');
             <div class="control-label col-sm-5"><h4>Pays :</h4></div>
           <div class="col-sm-7">
             <select name="countr" class="form-control"required>
+              <option>France</option>
+              <option>Espagne</option>
               <option>Maroc</option>
-              <option>Algérie</option>
-              <option>Tunisie</option>
+              <option>Portugal</option>
+              <option>Suisse</option>
+              <option>Allemagne</option>
+              <option>Angleterre</option>
+              <option>¨Belgique</option>
+              <option>Italie</option>
+              <option>Autres</option>
             </select>
         </div>
         </div>

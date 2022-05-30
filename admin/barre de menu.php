@@ -18,9 +18,9 @@ error_reporting(1);
     </div>
     <div style="margin-top: 13px;" class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="index.php"title="Home">Accueil</a></li>
-        <li><a href="à propos.php"title="About">à propos </a></li>
-		    <li><a href="galerie des images.php"title="Gallery">Galerie </a></li>
+        <li><a href="../index.php"title="Home">Accueil</a></li>
+        <li><a href="../à propos.php"title="About">à propos </a></li>
+		    <li><a href="../galerie des images.php"title="Gallery">Galerie </a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -40,7 +40,7 @@ error_reporting(1);
         <?PHP } else
 		{
 		?>
-		<li><a href="identifier.php" title="login"><span class="glyphicon glyphicon-log-in"></span>&nbsp;&nbsp;Connexion Utilisateur</a>
+		<li><a href="../identifier.php" title="login"><span class="glyphicon glyphicon-log-in"></span>&nbsp;&nbsp;Connexion Utilisateur</a>
         </li>
 		<?php 
 		} ?>
